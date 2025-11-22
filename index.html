@@ -101,13 +101,13 @@
 <section id="booking-form">
         <div id="form">
             <h2>Book Now</h2>
-             <form>
+             <form name="contact details" method="POST" data-netlify="true">
             <label id="name" >Name:</label>
-            <input type="text" placeholder="Enter your name" required>
-            <label id="email">Email:</label>
-            <input type="email" placeholder="Enter your email" required>
+            <input type="text" name="Full name" placeholder="Enter your name" required>
+            <label id="email" >Email:</label>
+            <input type="email" name="email" placeholder="Enter your email" required>
             <label id="phone">Phone:</label>
-            <input type="tel" placeholder="Enter your phone no" minlength="10" maxlength="10" required>
+            <input type="tel" name="phone no" placeholder="Enter your phone no" minlength="10" maxlength="10" required>
             <br><br>
             <input type="submit">
         </form>
